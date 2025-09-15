@@ -1,0 +1,8 @@
+dockerservers:
+  hosts:
+    docker-host.domain:
+      ansible_host: ipaddress
+
+production:
+  children:
+    dockerservers:

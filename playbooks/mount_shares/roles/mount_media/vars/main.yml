@@ -1,0 +1,5 @@
+mount_media_source: [add path to media source]
+mount_media_path: /mnt/media
+mount_media_fstype: nfs
+mount_media_opts: rw,nconnect=16,nfsvers=3,tcp,hard,intr,timeo=600,retrans=2,rsize=524288,wsize=524288
+mount_media_permission: '0777'

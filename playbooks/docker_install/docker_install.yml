@@ -1,0 +1,7 @@
+---
+- name: Install Docker on Debian-based systems
+  hosts: production
+  become: true
+  roles:
+    - install
+    - traefik_network

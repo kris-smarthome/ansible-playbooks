@@ -1,0 +1,5 @@
+mount_nfs_source: [add path to home source]
+mount_nfs_path: /mnt/applications
+mount_nfs_fstype: nfs
+mount_nfs_opts: rw,nconnect=16,nfsvers=3,tcp,hard,intr,timeo=600,retrans=2,rsize=524288,wsize=524288
+mount_nfs_permission: '0777'
